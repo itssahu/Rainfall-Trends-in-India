@@ -1,13 +1,13 @@
 # Rainfall Trends in India Analysis with Python
 
-![Rainfall Trends Banner](images/annual_trend.png)
-
 ## Overview
 
 Rainfall is a critical element of India’s climate system, impacting agriculture, water resources, and the economy. This project performs an in-depth analysis of rainfall trends in India using a comprehensive dataset spanning from 1901 to 2015. We explore long-term trends, seasonal patterns, anomalies, and apply forecasting to predict future rainfall patterns.
 
 ## Project Motivation
+In this analysis, we aim to uncover long-term trends, seasonal patterns, and anomalies in India’s rainfall data. We will examine historical rainfall trends, detect years with extreme or deficient rainfall, explore relationships between seasonal and annual rainfall, and forecast future rainfall using time series models.
 
+For this analysis, we rely on a dataset containing monthly, seasonal, and annual rainfall measurements spanning over a century. I found an ideal dataset for this task, which includes monthly rainfall values, seasonal aggregations (e.g., monsoon rainfall), and annual totals, all of which are essential for understanding variability, detecting anomalies, and predicting future trends.
 Understanding rainfall trends is vital for:
 - **Agricultural planning:** Anticipating water availability and crop yield.
 - **Disaster management:** Preparing for extreme events such as droughts and floods.
@@ -20,8 +20,6 @@ The dataset includes:
 - **Monthly Rainfall:** Data for each month.
 - **Seasonal Aggregations:** Rainfall totals for seasons (e.g., Jan-Feb, Mar-May, Jun-Sep, Oct-Dec).
 - **Annual Totals:** Overall yearly rainfall.
-  
-*Source:* [Download the dataset](data/rainfall_area-wt_India_1901-2015.csv)
 
 ## Key Analysis & Insights
 
