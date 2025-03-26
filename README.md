@@ -7,7 +7,7 @@ Rainfall is a critical element of India’s climate system, impacting agricultur
 ## Project Motivation
 In this analysis, we aim to uncover long-term trends, seasonal patterns, and anomalies in India’s rainfall data. We will examine historical rainfall trends, detect years with extreme or deficient rainfall, explore relationships between seasonal and annual rainfall, and forecast future rainfall using time series models.
 
-For this analysis, we rely on a dataset containing monthly, seasonal, and annual rainfall measurements spanning over a century. I found an ideal dataset for this task, which includes monthly rainfall values, seasonal aggregations (e.g., monsoon rainfall), and annual totals, all of which are essential for understanding variability, detecting anomalies, and predicting future trends.
+For this analysis, we rely on a dataset containing monthly, seasonal, and annual rainfall measurements spanning over a century. We are using an ideal dataset for this task, which includes monthly rainfall values, seasonal aggregations (e.g., monsoon rainfall), and annual totals, all of which are essential for understanding variability, detecting anomalies, and predicting future trends.
 Understanding rainfall trends is vital for:
 - **Agricultural planning:** Anticipating water availability and crop yield.
 - **Disaster management:** Preparing for extreme events such as droughts and floods.
