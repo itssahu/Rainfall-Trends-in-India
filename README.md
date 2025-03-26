@@ -24,7 +24,9 @@ The dataset includes:
 ## Key Analysis & Insights
 
 1. **Annual Rainfall Trends:**  
-   - Plotting annual rainfall with a mean comparison to identify peaks, troughs, and overall variability.
+   - Plotting annual rainfall with a mean comparison to identify peaks, troughs, and overall variability.![raintrend](https://github.com/user-attachments/assets/7afcd6d2-a27f-4140-ae6a-5f8c652d2d3a)
+    The above graph shows significant year-to-year variability in India’s annual rainfall, with no apparent long-term upward or downward trend over the century. The red dashed line indicates the mean rainfall, around      which the annual rainfall oscillates. Notable peaks and troughs highlight extreme rainfall events and dry years.
+
    - *Insight:* Despite year-to-year variability, the 10-year rolling average indicates a slight downward trend post-1960, suggesting climate change impacts.
 
 2. **Monthly & Seasonal Patterns:**  
@@ -47,26 +49,4 @@ The dataset includes:
    - Using Prophet to forecast annual rainfall for the next 20 years.
    - *Insight:* Forecasts suggest a slight declining trend in annual rainfall, emphasizing the need for long-term water resource planning.
 
-## Repository Contents
 
-- **Data:**  
-  The `data/` folder contains the raw rainfall dataset.
-  
-- **Notebooks:**  
-  The `notebooks/` folder includes an interactive Jupyter Notebook (`Rainfall_Trends_India_Analysis.ipynb`) that walks through the analysis, complete with visualizations and detailed commentary.
-
-- **Scripts:**  
-  The `scripts/` folder has a standalone Python script (`rainfall_analysis.py`) that can reproduce the analysis.
-
-- **Images:**  
-  The `images/` folder contains plots generated during the analysis for quick reference and presentation.
-
-- **Forecasts:**  
-  Forecast outputs, including the Prophet forecast plot, are stored in the `forecasts/` folder.
-
-## How to Run the Project
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/rainfall-trends-india.git
-   cd rainfall-trends-india
